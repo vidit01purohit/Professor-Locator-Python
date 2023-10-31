@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "professor-locator"
+version = "0.1.0"
+description = ""
+authors = ["Vidit Purohit <vidit01purohit@gmail.com>"]
+readme = "README.md"
+packages = [{include = "professor_locator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+thefuzz = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
